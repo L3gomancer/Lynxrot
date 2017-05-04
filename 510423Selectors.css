@@ -1,0 +1,12 @@
+p {
+    color: #00E5EE;
+}
+
+div p {
+    color: #CC0000;
+}/*Add your CSS below!*/
+
+* {
+    border: 1px solid #3A5FCD;
+}
+
