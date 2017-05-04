@@ -1,0 +1,10 @@
+# hope this serves as a template to just copy into repos and rename to invisible
+
+*.DS_Store
+
+*.sublime-project
+*.sublime-workspace
+
+node_modules/
+
+.vscode/
