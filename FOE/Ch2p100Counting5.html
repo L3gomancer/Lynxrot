@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Event listener</title>
+<button>click me</button>
+<script>
+//Access the button
+var button = document.querySelector("button");
+button.addEventListener("click", clickHandler, false);
+
+//Create a score variable
+var score = 0; 
+console.log(score);
+
+function clickHandler()
+{ 
+	score += 5;
+	console.log(score); 
+} 
+</script> 
