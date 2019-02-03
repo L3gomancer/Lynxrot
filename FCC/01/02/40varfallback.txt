@@ -1,0 +1,4 @@
+/*
+you can attach a fallback normal value in the reference that your page will revert to, e.g. to support older browsers that don't support CSS Variables. or a device doesn't show the value of the variable:
+    background: var(--penguin-skin, black);
+*/

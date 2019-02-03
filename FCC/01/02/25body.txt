@@ -1,0 +1,7 @@
+// every html page has a body element [whether declared or not?]. Proof by colouring:
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>

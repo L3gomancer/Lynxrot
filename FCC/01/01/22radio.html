@@ -1,0 +1,36 @@
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+    <label>
+      <input type="radio" name="indoor-outdoor">indoor
+    </label>
+    <label>
+      <input type="radio" name="indoor-outdoor">outdoor
+    </label>
+  </form>
+</main>
+
+
+<!--
+By wrapping an <input> in a <label> it will associate the radio button input with the label
+Related radio buttons should have the same name attribute to create a group so selecting one will deselect the others
+To set a "for" attribute in the label element that matches the id of the input, This helps assistive technologies
+-->

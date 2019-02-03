@@ -1,0 +1,5 @@
+/*
+When you create a variable, it becomes available for you to use inside the element and is also available within any elements nested within it.
+CSS variables are often defined in the :root element.
+roughly in the same way that an <html> element is a container for the <body> element
+*/

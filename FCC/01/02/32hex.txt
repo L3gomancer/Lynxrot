@@ -1,0 +1,8 @@
+// we can use 6 hexadecimal digits to represent colors, two for red, green, and blue components (RGB). #000000 is black and the lowest possible value. More here
+https://en.wikipedia.org/wiki/RGB_color_model
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

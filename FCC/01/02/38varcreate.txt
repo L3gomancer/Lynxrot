@@ -1,0 +1,6 @@
+// To create a CSS Variable you declare it with a name and assign it a value
+--penguin-skin: gray;
+Now you can use (call? ref?) that variable elsewhere in your CSS to change the value of other elements to gray.
+
+Can this be declared in its own CSS rule? Or only within an existing rule? involving any type of selector?
+Can they be chained?

@@ -1,0 +1,15 @@
+// Let's bring out CatPhotoApp again
+// CSS can Select by ID and class, but also by an element's attribute with the syntax
+[attr='value']{}
+
+<style>
+  [type='checkbox'] {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  }
+</style>
+
+<main>
+  <form action="/submit-cat-photo" id="cat-photo-form">
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+</main>

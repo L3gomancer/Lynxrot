@@ -1,0 +1,2 @@
+
+<form id="cat-photo-form" action="/submit-cat-photo">

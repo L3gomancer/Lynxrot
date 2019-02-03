@@ -1,0 +1,8 @@
+
+<style>
+  #cat-photo-form {
+    background-color: green;
+  }
+</style>
+
+<form id="cat-photo-form">

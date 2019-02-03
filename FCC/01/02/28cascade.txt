@@ -1,0 +1,18 @@
+// demonstrate that CSS rules (classes or elements whatever) declared further down the style sheet override ones above e.g. blue class below takes priority over pink class above.
+// Their order in HTML is irrelevant
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

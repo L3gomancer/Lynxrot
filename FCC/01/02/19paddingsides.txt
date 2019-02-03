@@ -1,0 +1,10 @@
+// see L16 for rest
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }

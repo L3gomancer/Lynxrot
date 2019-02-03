@@ -1,0 +1,11 @@
+// the header element inherited the text colour from the undeclared parent body element
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+</style>
+
+<h1>Hello World</h1>

@@ -1,0 +1,15 @@
+/* 
+to use the variable on other CSS rules you reference it in place (or alongside) of normal values:
+background: var(--penguin-skin);
+*/
+
+<style>
+  .penguin {
+    --penguin-skin: gray;
+  }
+
+  .penguin-top {
+    background: var(--penguin-skin);
+  }
+</style>
+
